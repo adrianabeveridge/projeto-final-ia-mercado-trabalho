@@ -1,71 +1,71 @@
-# A Importância da IA em Nossas Vidas e no Trabalho
+# The Importance of AI in Our Lives and Work
 
-### Uma Análise Exploratória do Impacto da Inteligência Artificial no Mercado de Trabalho Global (2020–2026)
+### An Exploratory Analysis of the Impact of Artificial Intelligence on the Global Labor Market (2020–2026)
 
-**Projeto S14 Final — Análise de Dados**
-**Autora:** Adriana Beveridge · adriana.beveridge@gmail.com
+**Final Project — Data Analyst**
+**Author:** Adriana Beveridge · adriana.beveridge@gmail.com
 
 ---
 
-## 📋 Sobre o Projeto
+## 📋 About the Project
 
-A Inteligência Artificial deixou de ser promessa futurista e passou a fazer parte do dia a dia profissional. Mas o impacto real varia muito — dependendo da profissão, do setor e do país. Este projeto usa dados reais(ish) para investigar, com evidências, como essa transformação está acontecendo.
+Artificial Intelligence is no longer a futuristic promise — it has become part of everyday professional life. But the real impact varies a lot, depending on occupation, industry, and country. This project uses data to investigate, with evidence, how this transformation is happening.
 
-## ❓ Perguntas de Pesquisa
+## ❓ Research Questions
 
-1. Quais profissões e indústrias correm mais risco de substituição pela IA?
-2. A adoção de IA está relacionada com aumento ou queda de salário?
-3. Como o risco de automação evoluiu de 2020 a 2026?
-4. Existe diferença entre países no nível de adoção de IA e no impacto salarial?
-5. Quais profissões têm maior urgência de requalificação (reskilling)?
+1. Which occupations and industries are most at risk of being replaced by AI?
+2. Is AI adoption related to salary increases or decreases?
+3. How has automation risk evolved from 2020 to 2026?
+4. Is there a difference between countries in AI adoption level and salary impact?
+5. Which occupations have the greatest reskilling urgency?
 
-Como bônus, o projeto também constrói um **Índice de Vulnerabilidade à IA (IVIA)** — uma métrica própria criada a partir da combinação ponderada de risco de automação, urgência de requalificação e intensidade de disrupção.
+As a bonus, the project also builds an **AI Vulnerability Index (AIVI)** — a custom metric created by combining automation risk, reskilling urgency, and AI disruption intensity with weighted scoring.
 
-## 🔑 Principais Achados
+## 🔑 Key Findings
 
-- 🚚 **Motorista de Caminhão (60,7%)** e **Atendimento ao Cliente (59,9%)** têm o maior risco de automação; **Engenheiro de Software (34,9%)** e **Analista de Dados (35,5%)** têm o menor.
-- 💰 A correlação entre adoção de IA e variação salarial é **praticamente nula (r ≈ 0,000)** — adotar mais IA não significou ganhar mais nem menos, neste dataset.
-- 📈 O risco de automação ficou **estável no geral (2020–2026)**, mas com trajetórias opostas por setor: Tecnologia caiu (-2,5 p.p.), Retail e Energy subiram (+3,0 e +2,0 p.p.).
-- 🌎 O **Brasil está na média do grupo de países**, tanto em adoção de IA quanto em variação salarial (-0,06%, estável).
-- 🎯 O **Índice de Vulnerabilidade à IA** confirma: Motorista de Caminhão (100/100) é a profissão mais vulnerável; Engenheiro de Software (0,3/100) é a mais segura.
+- 🚚 **Truck Driver (60.7%)** and **Customer Support Rep (59.9%)** have the highest automation risk; **Software Engineer (34.9%)** and **Data Analyst (35.5%)** have the lowest.
+- 💰 The correlation between AI adoption and salary change is **essentially null (r ≈ 0.000)** — adopting more AI was not associated with earning more or less, in this dataset.
+- 📈 Automation risk stayed **stable overall (2020–2026)**, but with opposite trajectories by sector: Technology decreased (-2.5 p.p.), Retail and Energy increased (+3.0 and +2.0 p.p.).
+- 🌎 **Brazil is at the group average** among countries, both in AI adoption and salary change (-0.06%, stable).
+- 🎯 The **AI Vulnerability Index** confirms: Truck Driver (100/100) is the most vulnerable occupation; Software Engineer (0.3/100) is the safest.
 
 ## 📊 Dataset
 
 [**Future of Work in the Age of AI (2020–2026)**](https://www.kaggle.com/datasets/algozee/future-of-work-in-the-age-of-ai-20202026) — Kaggle
 
-Dataset sintético com 15.000 registros, cobrindo 8 indústrias, 9 países e 10 profissões, com métricas de risco de automação, adoção de IA, variação salarial, urgência de requalificação e intensidade de disrupção.
+A synthetic dataset with 15,000 records, covering 8 industries, 9 countries, and 10 job roles, with metrics on automation risk, AI adoption, salary change, reskilling urgency, and disruption intensity.
 
-## 🗂️ Estrutura do Repositório
+## 🗂️ Repository Structure
 
 ```
-├── Projeto_Final_Impacto_IA_Trabalho.ipynb   # Notebook com toda a análise (Python)
-├── ai_job_replacement_2020_2026_v2.csv       # Dataset utilizado
-├── Projeto_Final_Apresentacao.pdf            # Apresentação em slides
-└── README.md                                 # Este arquivo
+├── Final_Project_AI_Impact_on_Work.ipynb     # Notebook with the full analysis (Python)
+├── ai_job_replacement_2020_2026_v2.csv       # Dataset used
+├── Projeto_Final_Apresentacao.pdf            # Slide presentation
+└── README.md                                 # This file
 ```
 
-## 🛠️ Ferramentas Utilizadas
+## 🛠️ Tools Used
 
 - **Python** — pandas, numpy, scikit-learn
-- **Visualização** — matplotlib, seaborn, plotly
+- **Visualization** — matplotlib, seaborn, plotly
 - **Jupyter Notebook**
 
-## 🚀 Como Rodar o Notebook
+## 🚀 How to Run the Notebook
 
-1. Clone este repositório ou baixe os arquivos
-2. Certifique-se de que o arquivo `ai_job_replacement_2020_2026_v2.csv` está na mesma pasta do notebook
-3. Instale as dependências:
+1. Clone this repository or download the files
+2. Make sure `ai_job_replacement_2020_2026_v2.csv` is in the same folder as the notebook
+3. Install the dependencies:
    ```bash
    pip install pandas numpy matplotlib seaborn plotly scikit-learn
    ```
-4. Abra o notebook no Jupyter e rode todas as células (`Kernel → Restart & Run All`)
+4. Open the notebook in Jupyter and run all cells (`Kernel → Restart & Run All`)
 
-## 📌 Limitações
+## 📌 Limitations
 
-- O dataset é sintético (gerado para fins educacionais); os valores absolutos não representam estatísticas oficiais de mercado.
-- A análise é correlacional, não causal.
-- O Índice de Vulnerabilidade à IA é uma construção autoral deste projeto, com pesos definidos por julgamento razoável.
+- The dataset is synthetic (generated for educational purposes); absolute values do not represent official market statistics.
+- The analysis is correlational, not causal.
+- The AI Vulnerability Index is an original construct of this project, with weights defined by reasonable judgment.
 
 ---
 
-*Projeto desenvolvido como parte do Nanodegree de Analista de Dados.*
+*Project developed as part of the Data Analyst program.*
